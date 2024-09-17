@@ -5,7 +5,7 @@ body {
 }
 a:focus, a:hover {
     font-style: italic;
-    color:orangered;
+    color:rgb(169, 190, 46);
 }
 header h1 {
     font-size: 175%;
@@ -14,7 +14,7 @@ header h1 {
 }
 header h2 {
     font-size: 130%; 
-    color: #800000;
+    color: #3b8c9a;
     text-indent: 30px;
 }
 header img {
