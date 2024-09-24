@@ -11,7 +11,10 @@ body {
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
-    background-image: to right, to repeat y, not scroll;
+    background-image: url("..images/image.jpg)";
+    background-repeat: repeat-y;
+    background-position: right;
+    background-attachment: fixed;
 }
 a:focus, a:hover {
     font-style: italic;
@@ -43,6 +46,12 @@ main h3 {
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
     font-size: 105%;
+}
+main nav {
+
+}
+main div.contact {
+
 }
 #list {
     line-height: 1.5em;
