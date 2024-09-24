@@ -1,6 +1,5 @@
 html {
     background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
-
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +12,6 @@ body {
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
     background-image: to right, to repeat y, not scroll;
-
 }
 a:focus, a:hover {
     font-style: italic;
@@ -44,6 +42,9 @@ main h3 {
     left: 2em;
     bottom: 1.5em;
     border: 5px dashed blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 0.5em;
     font-size: 105%;
 
 }
