@@ -12,6 +12,8 @@ body {
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
+    background-image: to right, to repeat y, not scroll;
+
 }
 a:focus, a:hover {
     font-style: italic;
@@ -38,7 +40,12 @@ main {
 }
 main h3 {
     margin-top: 3em;
+    right: 2em;
+    left: 2em;
+    bottom: 1.5em;
+    border: 5px dashed blue;
     font-size: 105%;
+
 }
 #list {
     line-height: 1.5em;
