@@ -15,7 +15,6 @@ body {
     background-repeat: repeat-y;
     background-position: right;
     background-attachment: fixed;
-    margin-left: auto;
 }
 a:focus, a:hover {
     font-style: italic;
@@ -47,15 +46,13 @@ main h3 {
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
     font-size: 105%;
-    margin-left: auto;
 }
 main nav {
 margin: 1.5em 2em 1.5em;
 border: 5px dashed blue;   
 border-radius: 20px;       
 box-shadow: 3px 3px 4px 4px red; 
-padding: 0.5em;
-margin-left: auto;            
+padding: 0.5em;         
 }
 main div.contact{
 margin: 1.5em 2em 0em;
@@ -63,7 +60,6 @@ border: 5px dotted style blue;
 border-radius: 20px;
 box-shadow: 3px 3px 4px 4px red;
 padding: 1em;
-margin-left: auto;
 }
 #list {
     line-height: 1.5em;
