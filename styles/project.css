@@ -40,7 +40,7 @@ article {
     width: 70%;
     float: left;
     column-count: 2;
-    column-rule: 2px dotted style turquoise;
+    column-rule: 2px dotted style maroon;
     column-gap: 2em;
     margin-left: 2em;
 }
