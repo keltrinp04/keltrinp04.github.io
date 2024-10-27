@@ -1,4 +1,19 @@
-#nav_menu ul { list-style-type: none; }
+#nav_menu ul {
+    list-style-type: none;
+    padding: 1em 0; /* padding above and below li
+    elements */
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black; }
+    #nav_menu ul li {
+    display: inline;
+    padding: 0 1.5em; }
+    #nav_menu ul li a {
+    font-weight: bold;
+    color: blue; }
+    #nav_menu ul li a.current { text-decoration: none; }
+    #nav_menu ul { list-style-type: none; }
+
 #nav_menu ul li { float: left; }
 #nav_menu ul li a {
 text-align: center;
