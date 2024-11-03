@@ -27,7 +27,7 @@ ul {
 li {
     padding-left: 20px; 
 }
-h2 p::first-letter{
+p::first-letter{
         font-size: 3em;
         font-weight: bold;
         font-style: italic;
