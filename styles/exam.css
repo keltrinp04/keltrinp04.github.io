@@ -8,10 +8,15 @@ body {
 }
 
 article {
-    color: blue;
     width: 75%;
     float: left; 
     margin-right: 5%; 
+}
+article h1 {
+    color: blue;
+}
+article h2 {
+    color: blue;
 }
 
 aside {
