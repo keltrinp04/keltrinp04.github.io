@@ -38,7 +38,7 @@ article p::first-letter {
 
 footer {
     clear: both;
-    border-top: 2px;
+    border-top: 2px darkcyan;
     padding: 20px; 
     text-align: center; 
     color: darkturquoise; 
