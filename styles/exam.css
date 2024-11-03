@@ -22,18 +22,26 @@ aside {
 
 ul {
     list-style-type: none; 
+    padding: 0; 
 }
 
 li {
     padding-left: 20px; 
 }
-article p::first-letter{
-        font-size: 3em;
-        font-weight: bold;
-        font-style: italic;
-        color: black;
+
+article p::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
 }
+
 footer {
     clear: both;
-    border-top: 2px solid maroon
+    border-top: 2px solid maroon;
+    padding: 20px; 
+    background-color: lightgray; 
+    text-align: center; 
+    color: darkslategray; 
+    font-size: 1.2em; 
 }
