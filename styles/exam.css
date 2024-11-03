@@ -12,9 +12,8 @@ article {
     float: left; 
     margin-right: 5%; 
 }
-article h1 {
-    color: blue;
-}
+
+article h1,
 article h2 {
     color: blue;
 }
@@ -23,7 +22,7 @@ aside {
     width: 20%;
     position: fixed; 
     right: 0;
-    top: 15px; 
+    top: 80px; 
     background-color: lightblue;
 }
 
@@ -45,16 +44,19 @@ article p::first-letter {
 
 footer {
     clear: both;
-    border-top: 2px darkcyan;
+    border-top: 2px solid darkcyan; 
     padding: 20px; 
-    background-color: none;
+    background-color: transparent; 
     text-align: center; 
     color: darkturquoise; 
     font-size: 1.2em; 
 }
+
 nav {
     background-color: blue; 
     padding: 10px; 
+    position: relative; 
+    z-index: 10; 
 }
 
 nav ul {
@@ -77,14 +79,16 @@ nav a {
 }
 
 nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
     border-radius: 5px; 
 }
 
 nav .current {
     color: yellow;
     border-radius: 5px; 
+    background-color: rgba(255, 255, 255, 0.2); 
 }
 
 nav .lastitem {
-    margin-right: 
+    margin-right: 0; 
 }
