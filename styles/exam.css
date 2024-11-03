@@ -8,6 +8,7 @@ body {
 }
 
 article {
+    clear: left;
     width: 75%;
     float: left; 
     margin-right: 5%; 
@@ -99,7 +100,7 @@ nav .lastitem {
     margin-right: 0; 
 }
 article img {
-    float: right; 
+    float: left; 
     margin-right: 1em; 
     margin-bottom: 1em; 
     max-width: 100%; 
