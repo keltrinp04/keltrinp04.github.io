@@ -45,3 +45,41 @@ footer {
     color: darkturquoise; 
     font-size: 1.2em; 
 }
+nav {
+    background-color: #333; 
+    padding: 10px; 
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: space-between;
+}
+
+nav li {
+    margin: 0 15px; 
+}
+
+nav a {
+    color: white; 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    transition: background-color 0.3s; 
+}
+
+nav a:hover {
+    background-color: #555; 
+    border-radius: 5px; 
+}
+
+nav .current {
+    background-color: #777; 
+    border-radius: 5px; 
+}
+
+nav .lastitem {
+    margin-right: 
+}
+#nav_menu ul li a.current { color: yellow; }
