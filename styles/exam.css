@@ -46,7 +46,7 @@ footer {
     font-size: 1.2em; 
 }
 nav {
-    background-color: #333; 
+    background-color: blue; 
     padding: 10px; 
 }
 
@@ -70,16 +70,14 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #555; 
     border-radius: 5px; 
 }
 
 nav .current {
-    background-color: #777; 
+    color: yellow;
     border-radius: 5px; 
 }
 
 nav .lastitem {
     margin-right: 
 }
-#nav_menu ul li a.current { color: yellow; }
