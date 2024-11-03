@@ -1,7 +1,7 @@
 body {
     width: 95%;
     margin: 15px auto;
-    background-image: url(../images/space.jpeg); 
+    background-image: url(../images/sh.jpeg); 
     background-repeat: repeat-y;
     background-position: right;
     background-attachment: fixed;
@@ -32,4 +32,8 @@ article p::first-letter{
         font-weight: bold;
         font-style: italic;
         color: black;
+}
+footer {
+    clear: both;
+    border-top: 2px solid maroon
 }
