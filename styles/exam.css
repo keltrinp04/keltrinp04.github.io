@@ -12,9 +12,10 @@ article {
     float: left; 
     margin-right: 5%; 
     column-count: 3;
-    column-rule: 2px dotted style blue;
+    column-rule: 2px dotted blue; 
     column-gap: 2em;
     margin-left: 2em;
+    padding-top: 1em; 
 }
 
 article h1,
@@ -97,8 +98,11 @@ nav .current {
 nav .lastitem {
     margin-right: 0; 
 }
-article img{
-    float: right;
-    margin-right: 1em;
-    margin-bottom: 1em;
+article img {
+    float: right; 
+    margin-right: 1em; 
+    margin-bottom: 1em; 
+    max-width: 100%; 
+    z-index: 5; 
+    position: relative; 
 }
