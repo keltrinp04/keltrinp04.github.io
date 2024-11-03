@@ -40,6 +40,7 @@ footer {
     clear: both;
     border-top: 2px darkcyan;
     padding: 20px; 
+    background-color: none;
     text-align: center; 
     color: darkturquoise; 
     font-size: 1.2em; 
