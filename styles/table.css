@@ -1,68 +1,105 @@
+/* Global Styles */
 html, body {
     margin: 1em;
     height: 100%;
     font-size: 100%;
-    }
-    * {
+}
+
+* {
     font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*-----------------------------------------------------------*/
+/* Table First - Border style and alternating row colors */
+table.first {
+    border-collapse: separate;
+    border: 2px solid black;
+}
+
+table.first th, table.first td {
+    border: 2px solid blue;
+    padding: 0.7em;  /* Added padding for better spacing */
+    vertical-align: top; /* Aligns content to the top of each cell */
+}
+
+table.first tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+/*-----------------------------------------------------------*/
+/* Table Second - Specific styling for caption at bottom, borders, and column alignment */
+table.second {
+    border-collapse: collapse;
+    border: 2px solid purple;
+    caption-side: bottom;
+}
+
+table.second th {
+    background-color: salmon;
+    padding: 0.7em;
+}
+
+table.second th, table.second td {
+    padding: 0.7em;
+    vertical-align: middle; /* Center the content vertically */
+    border: 2px solid purple;
+}
+
+table.second thead tr:first-child {
+    border-bottom: 2px solid purple;
+}
+
+/*-----------------------------------------------------------*/
+/* Table Third - Specific borders, row styles, and alignment */
+table.third {
+    border-collapse: collapse;
+    width: 100%; /* Ensures the table takes up available space */
+    border: 1px solid lightgray; /* Border around the entire table */
+}
+
+table.third th, table.third td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top; /* Align content to the top of each cell */
+}
+
+table.third thead tr:first-child {
+    border-top: 2px solid orangered; /* Border on the top row */
+}
+
+table.third tr:last-child {
+    border-bottom: 2px solid orangered; /* Border on the last row */
+}
+
+table.third tr:nth-child(even) {
+    background-color: #f9f9f9; /* Optional: light background color for even rows */
+}
+
+table.third tr:nth-child(odd) {
+    background-color: #fff; /* White background for odd rows */
+}
+
+table.third td:first-child {
+    vertical-align: top; /* Ensures category numbers align to the top */
+}
+
+/* Table responsive styles for smaller screens (max-width: 425px) */
+@media only screen and (max-width: 425px) {
+    /* Make the entire table layout responsive */
+    th, td {
+        display: block;
+        width: 100%; /* Make each cell block take full width */
+        box-sizing: border-box; /* Ensure padding is included in width */
     }
-    /*-----------------------------------------------------------*/
-    table.first {
-        border-collapse: separate;
-        border: 2px solid black;    
+
+    /* Hide the <thead> (column headers) and number column on small screens */
+    thead, td.number {
+        display: none;
+        padding: 0;
     }
-    table.first th, table.first td {
-        border: 2px solid blue;
-    }
-    table.first tr:nth-child(odd) {
-        background-color: lightblue;
-    }
-    /*-----------------------------------------------------------*/
-    table.second {    
-        border-collapse: collapse; 
-        border: 2px solid purple;   
-        caption-side: bottom;
-    }
-    table.second th {
-        background-color: salmon;
-    }
-    table.second th, table.second td {
-        padding: 0.7em;  
-        vertical-align: middle;
-        border: 2px solid purple;
-    }
-    table.second thead tr:first-child{     
-        border-bottom: 2px solid purple;
-    }
+
+    /* Optional: Add some space between rows for better readability */
     table th, table td {
-        padding: 10px;
-        text-align: left;
-        vertical-align: top; /* Align content to the top of each cell */
+        padding: 1em 0.5em;  /* Adjust padding for readability on small screens */
     }
-    table.third thead tr:first-child {
-        border-top: 2px solid orangered; 
-    }
-    table.third tr:last-child {
-        border-bottom: 2px solid orangered; 
-    }
-    table.third tr:nth-child(even) {
-        border-bottom: 1px solid lightgray; 
-    }
-    table.third tr:nth-child(odd) {
-        border-bottom: 1px solid lightgray; 
-    }
-    table.third td:first-child {
-        vertical-align: top; 
-    }
-    table.third {
-        border: 1px solid lightgray; 
-    }
-    @media only screen and (max-width: 425px) {
-        th, td {
-            display: block;
-        }
-        thead, td.number {
-            display: none;
-            padding: 0;
-        }    
-    }
+}
