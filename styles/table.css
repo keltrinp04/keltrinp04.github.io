@@ -44,11 +44,12 @@ table.third th, table.third td {
     padding: 10px;
     text-align: left;
     vertical-align: top; 
-    border-top: orangered;
+    border-top: 2px solid orangered;
 }
 
 table.third thead tr:first-child {
     background-color: lightgreen;
+    border-top: 2px solid orangered;
 }
 
 table.third tr:last-child {
