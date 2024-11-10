@@ -44,11 +44,9 @@ table.third th, table.third td {
     padding: 10px;
     text-align: left;
     vertical-align: top; 
-    border-top: orangered;
 }
 
 table.third thead tr:first-child {
-    border-top: 2px solid orangered; 
     background-color: lightgreen;
 }
 
@@ -68,6 +66,7 @@ table.third td:first-child {
 }
 table.third caption {
     background-color: lightgreen;
+    border-top: orangered;
 }
 @media only screen and (max-width: 425px) {
     th, td {
