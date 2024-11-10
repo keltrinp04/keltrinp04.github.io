@@ -17,7 +17,6 @@ html, body {
     table.first tr:nth-child(odd) {
         background-color: lightblue;
     }
-    /*-----------------------------------------------------------*/
     table.second {    
         border-collapse: collapse; 
         border: 2px solid purple;   
