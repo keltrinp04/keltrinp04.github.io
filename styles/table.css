@@ -48,6 +48,7 @@ table.third th, table.third td {
 
 table.third thead tr:first-child {
     border-top: 2px solid orangered; 
+    background-color: lightgreen;
 }
 
 table.third tr:last-child {
@@ -65,9 +66,8 @@ table.third tr:nth-child(odd) {
 table.third td:first-child {
     vertical-align: top; 
 }
-table.third tr:nth-child(1),
-table.third tr:nth-child(2) {
-    background-color: green; 
+table.third caption {
+    background-color: lightgreen;
 }
 @media only screen and (max-width: 425px) {
     th, td {
