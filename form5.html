@@ -45,20 +45,30 @@
             title="Must be 999-999-999 format"
             autocomplete="on"><br>
     </fieldset>
-        <fieldset>
-            <legend>Membership Information</legend>
-            <label for="membershipType">Membership Type:</label>
-            <select id="membershipType">
-                <optgroup label="Membership Type">
-                <option value="Junior">10"</option>
-                <option value="Regular">12"</option>
-                <option value="Charter">16"</option>
-                </optgroup><br>
-                
+    <fieldset>
+        <legend>Membership Information</legend>
+        <label for="membershipType">Membership Type:</label>
+        <select id="membershipType" name="membershipType" required>
+          <option value="junior">Junior</option>
+          <option value="regular">Regular</option>
+          <option value="charter">Charter</option>
+        </select>
+        <br><br>
+        <label for="startDate">Starting Date:</label>
+        <input type="date" id="startDate" name="startDate" required>
+        <br><br>
+        <label for="tickets">Number of Tickets:</label>
+        <input type="number" id="tickets" name="tickets" min="1" max="4" value="2" required>
+        <br><br>
+    
+      </fieldset>
         </fieldset>
 
     </form>
-
+    <form>
+        
+      </form>
+      
 
 
 
